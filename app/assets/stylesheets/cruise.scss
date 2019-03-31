@@ -1,0 +1,187 @@
+// Place all the styles related to the cruise controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+
+.PageHelloWorldMainBlock {
+
+	width: 100%;
+	height: 100vh;
+
+
+}
+ 
+section {
+	width: 100%;
+	height: 100vh;
+	box-sizing: border-box;
+
+}
+
+section.HWMBsection1 {
+	background: url('HW1.jpg');
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	border-bottom: 3px solid #0072bf;
+
+}
+	.InCruises180countries{
+		position: relative;
+		top: 300px;
+		left: 30px;
+
+		display: block;
+		background-color: gray; 
+		border: 3px solid #f3941f;
+
+		width: 400px;
+		height: 500px;
+
+	}
+
+section.HWMBsection2 {
+	background: url('HW2.jpg');
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed; 
+	border-bottom: 3px solid #0072bf;  
+}
+	.reasons{
+			position: relative;
+			top: 300px;
+			left: 30px;
+
+			display: block;
+			background-color: gray; 
+			border: 3px solid #f3941f;
+
+			width: 700px;
+			height: 500px;
+
+		}
+
+
+
+section.HWMBsection3 {
+	background: url('HW3.jpg');
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	border-bottom: 3px solid #0072bf;
+}
+	.tobeInCruises{
+			position: relative;
+			top: 300px;
+			left: 30px;
+
+			display: block;
+			background-color: gray; 
+			border: 3px solid #f3941f;
+
+			width: 700px;
+			height: 500px;
+
+		}
+
+
+section .textCont {
+	padding: 50px 100px;
+	height: auto;
+	background: white;
+	border-top: 3px solid #0072bf;
+}
+
+section.emptyBlock {
+	width: 100%;
+	height: 50px;
+	background: gray;
+}
+
+.BottomNavPageHelloWorld {
+	display: block;
+	position: fixed;
+	bottom: 3px;
+	right: 80px;
+	width: 200px;
+	height: 100px;
+
+	z-index: 1000;
+
+	background-color: white;
+}
+
+
+.content-point {
+	    position: absolute;
+    bottom: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+		
+		
+		.pos-bottom {
+			position: absolute;
+			bottom: 0px;
+			width: 150px;
+		}
+		.pos-bottom div{
+			display: inline-block;
+			width: 20px;
+			height: 30px;
+
+		}
+
+.BottomNavPageHelloWorld a:hover {
+
+  background-color: #585ce0;
+  border: 3px solid orange;
+
+  height: 60px;
+  transition: 1s;
+}
+
+.BottomNavPageHelloWorld a.active {
+
+  background-color: #585ce0;
+  border: 3px solid orange;
+
+  height: 60px;
+  transition: 1s;
+}
+
+
+
+.BottomNavPageHelloWorld a {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+  background-color: orange;
+}	
+
+.section.table-of-contents {
+
+}
+
+.navHWMBsection1 {
+	width: 100px;
+	height: 100px;
+
+	position: fixed;
+	z-index: 100;
+}
+
+
+
+.section.table-of-contents {
+  	font-size: 15px;
+  }
+
